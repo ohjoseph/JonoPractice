@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
                 updateQuestion();
+                // Test Commit
             }
         });
 
